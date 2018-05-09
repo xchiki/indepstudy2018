@@ -1,0 +1,127 @@
+<!--bootstrap modal for classes offered at brown-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="style.css"/>
+        
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <title>Design x Health</title>
+    </head>
+    <body>
+        <!-- Top navigation bar -->
+        <div id="header">
+            <a id="brownimg" href="home.html"><img id="brownlogo" src="images/brownlogo.png" alt="Brown Logo PNG"/></a>
+            <h1 id="title"><a href="home.html">Design x Health</a></h1>
+            <ul class="nav_link_container">
+                <li id="designthinking"><a href="design.html">Design Thinking</a></li>
+                <li id="atbrown"><a class="activenav" href="atbrown.html">At Brown</a></li>
+                <li id="beyondbrown"><a href="beyondbrown.html">Beyond Brown</a></li>
+            </ul>
+        </div>
+        
+        <!-- Background Div -->
+        <div id="bg">
+            <!-- Grid -->
+            <div class="container">
+                <h1 id="resources">Resources @ Brown</h1>
+                <div class="row">
+                    <div class="col-sm" class="resourcebox">
+                        <a data-toggle="modal" href="#modal"><img id="classes" src="images/classes.svg" alt="Classes Img"/></a>
+                    </div>
+                    <div class="col-sm" class="resourcebox">
+                        <a data-toggle="modal" href="#modal"><img id="people" src="images/people.svg" alt="People Img"/></a>
+                    </div>
+                    <div class="col-sm" class="resourcebox">
+                        <a data-toggle="modal" href="#modal"><img id="entrepreneurship" src="images/entrepreneurship.svg" alt="Entrepreneurship Img"/></a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm" class="resourcebox">
+                        <a data-toggle="modal" href="#modal"><img id="conferences" src="images/conferences.svg" alt="Conferences Img"/></a>
+                    </div>
+                    <div class="col-sm" class="resourcebox">
+                        <a data-toggle="modal" href="#modal"><img id="research" src="images/research.svg" alt="Research Img"/></a>
+                    </div>
+                    <div class="col-sm" class="resourcebox">
+                        <a data-toggle="modal" href="#modal"><img id="designhealth" src="images/designhealth.svg" alt="Design+Health Img"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Modal-->
+        <div id="modal" class="modal fade" role="dialog">
+            <div id="modalheader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 id="modaltitle">Classes Offered @ Brown</h4>
+                <hr>
+                <div id="modalbody">
+                    <h2>Fall Semester</h2>
+                    <p><span class="circle">1</span><strong>CSCI 1320: Creating Modern Web Applications</strong><span class="triangle leftfacing"></span></p>
+                    <div id="dropdown">
+                        <p id="description">Suspendisse potenti. Nam elementum elementum erat, ut ultricies neque molestie sagittis. Fusce nibh risus, scelerisque sit amet diam sit amet, accumsan semper sem. Sed at orci tortor.</p>
+                        
+                        <p id="classdetails"><b>Typical Hours Per Week:</b> 6.7 &nbsp;&nbsp; <b>Course:</b> 2.32 &nbsp;&nbsp;<b>Prof:</b> 2.33 </p>
+                    </div>
+                    <hr>
+                    <p><span class="circle">2</span><strong>Class #2 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                    <p><span class="circle">3</span><strong>Class #3 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                    <p><span class="circle">4</span><strong>Class #4 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                    
+                    <h2>Spring Semester</h2>
+                    <p><span class="circle">1</span><strong>Class #1 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                    <p><span class="circle">2</span><strong>Class #2 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                    <p><span class="circle">3</span><strong>Class #3 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                    <p><span class="circle">4</span><strong>Class #4 - </strong><span class="triangle leftfacing"></span></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div id="footer">
+            <h4>Brown University</h4>
+            <div id="left">
+                <h5>Providence, RI 02912, USA</h5>
+                <h5>Phone: 401-863-1000</h5>
+                <h5>© 2018 Brown University</h5>
+                <div id="socialmedia">
+                    <img src="images/facebook.svg" alt="Facebook Icon"/>
+                    <img src="images/instagram.svg" alt="Instagram Icon"/>
+                    <img src="images/linkedin.svg" alt="LinkedIn Icon"/>
+                    <img src="images/twitter.svg" alt="Twitter Icon"/>
+                </div>
+            </div>
+            
+            <div id="middle"><img class="divider_line" src="images/divider_line.svg" alt="Divider Line"/></div>
+            
+            <div id="right">
+                <h5>Maps & Directions</h5>
+                <h5>Contact Us</h5>
+                <h5>Resources</h5>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search..." name="search">
+                </div>
+            </div>
+        </div>
+        
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

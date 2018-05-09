@@ -1,0 +1,636 @@
+/*---------------HOME PAGE---------------*/
+/*-----NAVIGATION BAR-----*/
+#header {
+    height: 90px;
+    width: calc(100% - 90px);
+    margin: 0 auto;
+}
+
+#title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    color: black;
+    padding-left: 10px;
+}
+
+#title, #designthinking, #atbrown, #beyondbrown {
+    vertical-align: middle;
+    display: inline;
+    line-height: 90px;
+}
+
+#brownimg {
+    float: left;
+    padding-top: 20px;
+}
+
+#brownlogo {
+    height: 45px;
+}
+
+.nav_link_container {
+    float: right;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+    text-decoration: none;
+    color: black;
+}
+
+li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    border-bottom: 2px solid #B61600;
+}
+
+.activenav {
+    border-bottom: 2px solid #B61600;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+li {
+    padding-left: 63px;
+}
+
+/*-----HERO IMAGE PANEL-----*/
+#hero {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#hero_panel {
+    width: 200px;
+    float: left;
+    margin-top: 200px;
+    margin-left: -150px;
+    margin-right: 100px;
+}
+
+#hero_image {
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#down_arrow {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    padding: 75px;
+}
+
+#hero_panel h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#hero_panel h3 {
+    font-weight: 300;
+    font-size: 28px;
+    clear: none;
+}
+
+/*-----ABOUT SECTION-----*/
+#about {
+    background: #B61600;
+    padding: 50px;
+    height: 325px;
+}
+
+#about_img, #divider_line, #about p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.divider_line {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#about p {
+    width: 75%;
+    color: white;
+    line-height: 2.5;
+    margin-bottom: 0;
+}
+/*-----THREE GRAPHIC PANEL-----*/
+.container {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.home_graphics {
+    width: 50%;
+}
+
+.container p {
+    line-height: 1.75;
+}
+
+/*-------------------------RESPONSIVE-------------------------*/
+@media only screen and (max-width: 910px) {
+    #hero_image {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    #hero_panel {
+        width: 100%;
+        clear: none;
+        margin: 0 auto;
+        margin-left: 100px;
+    }
+    
+    #down_arrow {
+        padding: 30px;
+        width: 85px;
+    }
+    
+    #about {
+        height: 290px;
+        padding: 20px;
+    }
+    
+    
+    #about_img {
+        width: 100px;
+    }
+    
+    .divider_line {
+        padding: 15px;
+    }
+    
+    #about p {
+        width: 600px;
+        line-height: 1.8;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    #about {
+        height: 240px;
+        padding: 20px;
+    }
+    
+    
+    #about_img {
+        width: 80px;
+    }
+    
+    #about p {
+        width: 520px;
+        height: 200px;
+        line-height: 1.7;
+        font-size: 13px;
+        padding-left: 10px;
+        overflow: scroll;
+    }
+    
+    #about .divider_line {
+        height: 200px;
+    }
+}
+
+/*---------------DESIGN THINKING---------------*/
+/*-----HERO IMAGE-----*/
+#design_thinking_content {
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+#design_content_title {
+	margin: 0;
+    background-color: #B61600;
+    width: 100%;
+    height: 450px;
+}
+
+#center {
+	display: inline-block;
+    border: 2px solid white;
+    width: 260px;
+    height: 260px;
+    margin-left: calc((100% - 260px)/2);
+    margin-top: calc((450px - 260px)/2);
+}
+
+#center h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#leftbox, #stanford, #ideo {
+    padding: 30px;
+	margin: 0;
+}
+
+#leftbox h2, #stanford h2, #ideo h2 {
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+}
+
+#design_content {
+	margin: 0;
+}
+
+#design_content .col-lg-4 {
+	padding: 30px;
+}
+
+#design_content .col-lg-8, #design_content .container {
+	padding: 0;
+}
+
+#design_content .col-lg-8 .row {
+	margin: 0;
+	padding: 30px;
+}
+
+#design_content .col-lg-8 .row:first-child {
+	padding-bottom: 0px;
+}
+
+#leftbox {
+    background: #3A1E1A;
+	height: 100%;
+}
+
+#stanford {
+    background: #68352D;
+}
+
+#ideo {
+    background: #B61600;
+}
+
+#stanford p, #ideo p {
+    margin-left: 50px;
+}
+
+#stanford h2, #ideo h2 {
+    position: absolute;
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+/*---------------AT BROWN---------------*/
+/*-----GRID-----*/
+#bg {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+#resources {
+    font-weight: 800;
+    font-size: 70px;
+    color: #3A1E1A;
+    margin-top: -50px;
+}
+
+.col-sm {
+    padding: 30px;
+}
+
+.resourcebox:hover {
+    transform: scale(1.025);
+}
+
+/*-------------------------RESPONSIVE-------------------------*/
+@media only screen and (max-width: 375px) {
+    #bg {
+        margin-top: 30px
+    }
+    
+    #resources {
+        font-size: 30px;
+    }
+    
+    .col-sm img {
+        width: 150px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+}
+
+/*-----MODAL-----*/
+#modal {
+    background: white;
+    width: 800px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#modalheader button {
+    padding: 15px;
+    float: left;
+}
+
+#modalheader hr {
+    width: 700px;
+}
+
+#modaltitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: #68352D;
+    clear: left;
+    text-align: center;
+}
+
+#modalbody h2, #modalbody p {
+    margin-left: 50px;
+}
+
+#modalbody h2 {
+    font-size: 18px;
+    background-color: #68352D;
+    color: white;
+    height: 40px;
+    width: 700px;
+    margin-bottom: 18px;
+    padding-top: 9px;
+    padding-left: 15px;
+}
+
+.circle {  
+    height: 25px;
+    width: 25px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#dropdown {
+    display: none;
+}
+
+#modalbody p {
+    margin-left: 60px;
+}
+
+#modalbody #description, #modalbody #classdetails {
+    width: 640px;
+    margin-left: 95px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #68352D; 
+    float: right;
+    margin-right: 60px;
+}
+/*-------------------------RESPONSIVE-------------------------*/
+@media only screen and (max-width: 820px) {
+    #modal {
+        width: 700px;
+        height: 600px; 
+    }
+    
+    #modalbody h2 {
+        font-size: 16px;
+        width: 600px;
+    }
+    
+    #modalheader hr {
+        width: 600px;
+    }
+    
+    #modalbody h2 {
+        font-size: 15px;
+        height: 35px;
+    }
+
+    .circle {  
+        height: 20px;
+        width: 20px;
+        font-size: 14px;
+    }
+    
+    #modalbody p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #modaltitle {
+        font-size: 30px;
+    }
+    #modal {
+        width: 600px;
+        height: 500px; 
+    }
+    
+    #modalbody h2 {
+        font-size: 14px;
+        width: 500px;
+    }
+    
+    #modalheader hr {
+        width: 500px;
+    }
+
+    .circle {  
+        height: 18px;
+        width: 18px;
+        font-size: 13px;
+    }
+    
+    #modalbody p {
+        font-size: 11px;
+    }
+}
+/*---------------BEYOND BROWN---------------*/
+#beyondbrowntitle {
+    font-weight: 800;
+    font-size: 70px;
+    color: #3A1E1A;
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    width: 100vw!important;
+    display: inline-block;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+    width: 100%;
+    align-content: center;
+    grid-gap: 20px;
+    padding: 50px;
+}
+
+#texas {
+    margin-top: -98px;
+}
+
+.beyondleft {
+    justify-self: end;
+    padding-right: 5px;
+}
+
+.griditem img:hover {
+    transform: scale(1.025);
+}
+
+.gridcontainer img {
+    max-width: 100%;
+}
+
+/*-------------------------RESPONSIVE-------------------------*/
+@media only screen and (max-width: 830px) {
+    #beyondbrowntitle {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    #beyondbrowntitle {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    #beyondbrowntitle {
+        font-size: 40px;
+    }
+}
+
+
+/*-----FOOTER-----*/
+#footer {
+    width: 100%;
+    background: #3A1E1A;
+    color: white;
+    padding-left: 30px;
+}
+
+#footer h4 {
+    font-family: times;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+#footer h5 {
+    font-size: 12px;
+    margin: 2px;
+    margin-left: 0;
+}
+
+#footer .divider_line {
+    height: 105.5px;
+    margin-top: -60px;
+}
+
+#footer #left, #footer #middle, #footer #right {
+    display: inline-block;
+    height: 90px;
+}
+
+#socialmedia img {
+    margin-top: 10px;
+    width: 25px
+}
+
+.searchbar input {
+    color: #BDBDBD;
+    background-color: white;
+    background-image: url('images/search.svg');
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    padding-left: 25px;
+    height: 25px;
+    margin-top: 4.5px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    width: 180px;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+/*-------------------------RESPONSIVE-------------------------*/
+@media only screen and (max-width: 375px) {
+    #footer {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    #footer h4 {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+
+    #footer h5 {
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    #footer .divider_line {
+        height: 91px;
+        margin-top: -60px;
+    }
+
+    #socialmedia img {
+        width: 15px
+    }
+
+    .searchbar input {
+        background-size: 13px;
+        height: 20px;
+        width: 130px;
+        font-size: 11px;
+    }
+
+    ::placeholder {
+        font-size: 11px;
+    }
+}

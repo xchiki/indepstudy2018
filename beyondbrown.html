@@ -1,10 +1,8 @@
-<!--bootstrap modal for classes offered at brown-->
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8"/>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <link rel="stylesheet" href="style.css"/>
         
@@ -26,45 +24,17 @@
             <ul class="nav_link_container">
                 <li id="designthinking"><a href="design.html">Design Thinking</a></li>
                 <li id="atbrown"><a href="atbrown.html">At Brown</a></li>
-                <li id="beyondbrown"><a href="beyondbrown.html">Beyond Brown</a></li>
+                <li id="beyondbrown"><a class="activenav" href="beyondbrown.html">Beyond Brown</a></li>
             </ul>
         </div>
         
-        <!-- Hero Image panel -->
-        <div id="hero">
-            <div id="hero_panel">
-                <h2>title here:</h2>
-                <h3>catchphrase goes here</h3>
-            </div>
-            
-            <img id="hero_image" src="/images/hero_image.svg" alt="Design and Health Graphic"/>
-        </div>
-        
-        <a href="#about"><img id="down_arrow" src="/images/downarrow.svg" alt="Down Button"/></a>
-
-        <!-- About Section -->
-        <div id="about">
-            <img id="about_img" src="images/about.png" alt="About Graphic"/>
-            <img class="divider_line" src="images/divider_line.svg" alt="Divider Line"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur lacus tellus, ut fringilla purus cursus non. Nulla facilisi. Donec in velit ligula. Nulla sodales sit amet urna et vulputate. Cras luctus non justo at dictum. Aenean in ipsum pretium, vestibulum arcu eu, aliquet ipsum. Integer placerat dolor nulla, pharetra consequat dui scelerisque in. Quisque mollis lectus mollis tempor auctor. Suspendisse efficitur, nisi a faucibus pulvinar, tortor est maximus turpis, et tincidunt orci sem vitae risus. Curabitur felis urna, porttitor quis lacus sit amet, convallis sollicitudin neque. Duis mollis ullamcorper lacus, nec pulvinar augue hendrerit non. Ut vitae congue sapien.</p>
-        </div>
-        
-        <!-- Graphic Section -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm text-center">
-                    <img class="home_graphics" src="images/graphic1.svg" alt="Graphic 1"/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at vestibulum erat. Nulla quis lacus eget neque ullamcorper porta.</p>
-                </div>
-                <div class="col-sm text-center">
-                    <img class="home_graphics" src="images/graphic2.svg" alt="Graphic 2"/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at vestibulum erat. Nulla quis lacus eget neque ullamcorper porta.</p>
-                </div>
-                <div class="col-sm text-center">
-                    <img class="home_graphics" src="images/graphic3.svg" alt="Graphic 3"/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at vestibulum erat. Nulla quis lacus eget neque ullamcorper porta.</p>
-                </div>
-            </div>
+        <!-- Photo Grid -->
+        <h1 id="beyondbrowntitle">Beyond Brown</h1>
+        <div class="gridcontainer">
+            <div class="griditem beyondleft"><a href="https://mi2.medstarhealth.org/health-for-america/"><img id="hma" src="images/hma.png" alt="Health for America"/></a></div>
+            <div class="griditem" id="d.school"><a href="https://dschool.stanford.edu/"><img id="dschool" src="images/dschool.png" alt="Stanford d.school"/></a></div>
+            <div class="griditem beyondleft"><a href="https://healthcareinnovation.upenn.edu/"><img id="upenn" src="images/upenn.png" alt="UPenn Center for Health Care Innovation"/></a></div>
+            <div class="griditem" id="texas"><a href="https://dellmed.utexas.edu/design-institute"><img id="utaustin" src="images/utaustin.png" alt="UT Austin Design Institute of Health"/></a></div>
         </div>
         
         <!-- Footer -->
