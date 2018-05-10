@@ -31,7 +31,7 @@
                 <h1 id="resources">Resources @ Brown</h1>
                 <div class="row">
                     <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" href="#modal"><img id="classes" src="images/classes.svg" alt="Classes Img"/></a>
+                        <a data-toggle="modal" data-target="#modal"><img id="classes" src="images/classes.svg" alt="Classes Img"/></a>
                     </div>
                     <div class="col-sm" class="resourcebox">
                         <a data-toggle="modal" href="#modal"><img id="people" src="images/people.svg" alt="People Img"/></a>
@@ -63,14 +63,23 @@
                 <hr>
                 <div id="modalbody">
                     <h2>Fall Semester</h2>
-                    <p><span class="circle">1</span><strong>CSCI 1320: Creating Modern Web Applications</strong><span class="triangle leftfacing"></span></p>
-                    <div id="dropdown">
+                    
+                    <div>
+                        <p><span class="circle">1</span><strong>CSCI 1320: Creating Modern Web Applications</strong><span class="triangle leftfacing"></span></p>
+                        <div class="dropdown">
+                            <p id="description">Suspendisse potenti. Nam elementum elementum erat, ut ultricies neque molestie sagittis. Fusce nibh risus, scelerisque sit amet diam sit amet, accumsan semper sem. Sed at orci tortor.</p>
+
+                            <p id="classdetails"><b>Typical Hours Per Week:</b> 6.7 &nbsp;&nbsp; <b>Course:</b> 2.32 &nbsp;&nbsp;<b>Prof:</b> 2.33 </p>
+                        </div>
+                    </div>
+                    
+                    <hr>
+                    <p><span class="circle">2</span><strong>Class #2 - </strong><span class="triangle leftfacing"></span></p>
+                    <div class="dropdown">
                         <p id="description">Suspendisse potenti. Nam elementum elementum erat, ut ultricies neque molestie sagittis. Fusce nibh risus, scelerisque sit amet diam sit amet, accumsan semper sem. Sed at orci tortor.</p>
                         
                         <p id="classdetails"><b>Typical Hours Per Week:</b> 6.7 &nbsp;&nbsp; <b>Course:</b> 2.32 &nbsp;&nbsp;<b>Prof:</b> 2.33 </p>
                     </div>
-                    <hr>
-                    <p><span class="circle">2</span><strong>Class #2 - </strong><span class="triangle leftfacing"></span></p>
                     <hr>
                     <p><span class="circle">3</span><strong>Class #3 - </strong><span class="triangle leftfacing"></span></p>
                     <hr>
@@ -116,6 +125,32 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
         
         <script
           src="https://code.jquery.com/jquery-3.3.1.min.js"

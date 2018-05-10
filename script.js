@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.triangle').click(function() {
-        $('#dropdown').slideToggle('active');
+        $(this).parent().siblings('.dropdown').slideToggle('active');
         
         if ($(this).hasClass('leftfacing')) {
            $(this).css({
@@ -24,6 +24,6 @@ $(document).ready(function() {
     });
     
     $('.close').click(function() {
-       window.location.href = "/atbrown.html"; 
+       window.location.href = "atbrown.html"; 
     });
 });
