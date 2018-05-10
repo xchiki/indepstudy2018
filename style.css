@@ -141,6 +141,10 @@ li {
     line-height: 1.75;
 }
 
+.container h4 {
+    margin-top: 4%;
+}
+
 /*-------------------------RESPONSIVE-------------------------*/
 @media only screen and (max-width: 910px) {
     #hero_image {
@@ -288,7 +292,7 @@ li {
 }
 
 #stanford p, #ideo p {
-    margin-left: 50px;
+    margin-left: 120px;
 }
 
 #stanford h2, #ideo h2 {
@@ -338,7 +342,7 @@ li {
 }
 
 /*-----MODAL-----*/
-#modal {
+#modal, #modaltwo, #modalthree, #modalfour, #modalfive, #modalsix {
     background: white;
     width: 800px;
     height: 700px;
@@ -400,7 +404,7 @@ li {
     margin-left: 60px;
 }
 
-#modalbody #description, #modalbody #classdetails {
+#modalbody .description, #modalbody .classdetails {
     width: 640px;
     margin-left: 95px;
     font-size: 14px;
