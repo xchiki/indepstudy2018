@@ -404,6 +404,11 @@ li {
     margin-left: 60px;
 }
 
+#modalbody a:link, #modalbody a:active, #modalbody a:hover, #modalbody a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 #modalbody .description, #modalbody .classdetails {
     width: 640px;
     margin-left: 95px;
