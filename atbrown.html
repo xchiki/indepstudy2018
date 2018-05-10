@@ -24,44 +24,41 @@
             </ul>
         </div>
         
-        <!-- Background Div -->
-        <div id="bg">
-            <!-- Grid -->
-            <div class="container">
-                <h1 id="resources">Resources @ Brown</h1>
-                <div class="row">
-                    <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" data-target="#modal"><img id="classes" src="images/classes.svg" alt="Classes Img"/></a>
-                    </div>
-                    <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" href="#modaltwo"><img id="people" src="images/people.svg" alt="People Img"/></a>
-                    </div>
-                    <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" href="#modalthree"><img id="entrepreneurship" src="images/entrepreneurship.svg" alt="Entrepreneurship Img"/></a>
-                    </div>
+        <!-- Grid -->
+        <div class="container">
+            <h1 id="resources">Resources @ Brown</h1>
+            <div class="row">
+                <div class="col-sm" class="resourcebox">
+                    <a data-toggle="modal" data-target="#modal"><img id="classes" src="images/classes.svg" alt="Classes Img"/></a>
                 </div>
+                <div class="col-sm" class="resourcebox">
+                    <a data-toggle="modal" href="#modaltwo"><img id="people" src="images/people.svg" alt="People Img"/></a>
+                </div>
+                <div class="col-sm" class="resourcebox">
+                    <a data-toggle="modal" href="#modalthree"><img id="entrepreneurship" src="images/entrepreneurship.svg" alt="Entrepreneurship Img"/></a>
+                </div>
+            </div>
                 
-                <div class="row">
-                    <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" href="#modalfour"><img id="conferences" src="images/conferences.svg" alt="Conferences Img"/></a>
-                    </div>
-                    <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" href="#modalfive"><img id="research" src="images/research.svg" alt="Research Img"/></a>
-                    </div>
-                    <div class="col-sm" class="resourcebox">
-                        <a data-toggle="modal" href="http://www.designplushealth.org/"><img id="designhealth" src="images/designhealth.svg" alt="Design+Health Img"/></a>
-                    </div>
+            <div class="row">
+                <div class="col-sm" class="resourcebox">
+                    <a data-toggle="modal" href="#modalfour"><img id="conferences" src="images/conferences.svg" alt="Conferences Img"/></a>
+                </div>
+                <div class="col-sm" class="resourcebox">
+                    <a data-toggle="modal" href="#modalfive"><img id="research" src="images/research.svg" alt="Research Img"/></a>
+                </div>
+                <div class="col-sm" class="resourcebox">
+                    <a data-toggle="modal" href="http://www.designplushealth.org/"><img id="designhealth" src="images/designhealth.svg" alt="Design+Health Img"/></a>
                 </div>
             </div>
         </div>
         
         <!--Modal-->
         <div id="modal" class="modal fade" role="dialog">
-            <div id="modalheader">
+            <div class="modalheader">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 id="modaltitle">Classes Offered @ Brown</h4>
+                <h4 class="modaltitle">Classes Offered @ Brown</h4>
                 <hr>
-                <div id="modalbody">
+                <div class="modalbody">
                     <h2>Fall Semester</h2>
                     
                     <div>
@@ -201,12 +198,41 @@
             </div>
         </div>
         
-        <div id="modalthree" class="modal fade" role="dialog">
-            <div id="modalheader">
+        <div id="modaltwo" class="modal fade" role="dialog">
+            <div class="modalheader">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 id="modaltitle">Entrepreneurship</h4>
+                <h4 class="modaltitle">Research</h4>
                 <hr>
-                <div id="modalbody">
+                <div class="modalbody">
+                    <h2>Engineering</h2>
+                    <div class="peopleimgs">
+                        <div class="row">
+                            <div class="col"><a href="https://www.researchgate.net/profile/Celinda_Kofron"><img src="images/kofron.jpg" alt="Celinda Kofron"></a><h5>Celinda Kofron</h5><h6>Lecturer of Engineering, Associate Director of the Center for Biomedical Engineering</h6></div>
+                            <div class="col"><a href="https://vivo.brown.edu/display/jcrisco"><img src="images/josephcrisco.jpg" alt="Joseph Crisco"></a><h5>Joseph Crisco</h5><h6>Henry F. Lippitt Professor of Orthopedics</h6></div>
+                            <div class="col"><a href="http://gonsherdesign.com/about.php"><img src="images/iangonsher.jpg" alt="Ian Gonsher"></a><h5>Ian Gonsher</h5><h6>Assistant Professor of Practice in the School of Engineering and Department of Computer Science</h6></div>
+                            <div class="col"><a href="https://vivo.brown.edu/display/cbull#"><img src="images/chrisbull.jpg" alt="Chris Bull"></a><h5>Chris Bull</h5><h6>Senior Lecturer in Engineering</h6></div>
+                        </div>
+                    </div>
+                    
+                    <h2>Alpert Medical School</h2>
+                    <div class="peopleimgs">
+                        <div class="row">
+                            <div class="col"><a href="https://vivo.brown.edu/display/jbaruchm"><img src="images/jaybaruch.jpg" alt="Jay Baruch"></a><h5>Jay Baruch</h5><h6>Associate Professor of Emergency Medicine</h6></div>
+                            <div class="col"><a href="http://www.designplushealth.org/bios/2017/1/12/ravi-dcruz"><img src="images/ravidcruz.jpg" alt="Ravi D'Cruz"></a><h5>Ravi D'Cruz</h5><h6>Clinical Director Design+Health, Fellow in Neonatal/Perinatal Medicine</h6></div>
+                            <div class="col"><a href="http://gonsherdesign.com/about.php"><img src="images/iangonsher.jpg" alt="Ian Gonsher"></a><h5>Ian Gonsher</h5><h6>Assistant Professor of Practice in the School of Engineering and Department of Computer Science</h6></div>
+                            <div class="col"><a href="https://vivo.brown.edu/display/cbull#"><img src="images/chrisbull.jpg" alt="Chris Bull"></a><h5>Chris Bull</h5><h6>Senior Lecturer in Engineering</h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="modalthree" class="modal fade" role="dialog">
+            <div class="modalheader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modaltitle">Entrepreneurship</h4>
+                <hr>
+                <div class="modalbody">
                     <h2><a href="http://innovateonthehill.com/">Innovate on the Hill</a></h2>
                     <div>
                         <p style="width: 700px;">A collection of resources, events, programs, and opportunities for aspiring entrepreneurs and changemakers at Brown and RISD. The resources on this page are organized by ideation, prototyping, testing, funding, and launching.</p>
@@ -245,11 +271,11 @@
         </div>
         
         <div id="modalfour" class="modal fade" role="dialog">
-            <div id="modalheader">
+            <div class="modalheader">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 id="modaltitle">Conferences</h4>
+                <h4 class="modaltitle">Conferences</h4>
                 <hr>
-                <div id="modalbody">
+                <div class="modalbody">
                     <h2><a href="http://brownentrepreneurship.com/synapse">Synapse SF</a></h2>
                     <div>
                         <p style="width: 700px;">An exciting opportunity for Brown and RISD's most exceptional engineers, designers, and aspiring entrepreneurs interning in the nation’s technological capital this summer.
@@ -280,11 +306,11 @@
         </div>
         
         <div id="modalfive" class="modal fade" role="dialog">
-            <div id="modalheader">
+            <div class="modalheader">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 id="modaltitle">Research</h4>
+                <h4 class="modaltitle">Research</h4>
                 <hr>
-                <div id="modalbody">
+                <div class="modalbody">
                     <h2><a href="https://www.brown.edu/research/conducting-research-brown/commercializing-technology">Industry Engagement and Commercial Venturing (IECV)</a></h2>
                     <div>
                         <p style="width: 700px;">The mission of IECV is to unleash the impact of Brown research by encouraging and facilitating the evolution of Brown's  discoveries and inventions into know-how, products and services with societal and economic value.  
