@@ -43,7 +43,7 @@ li {
 }
 
 #hero_panel {
-    width: 200px;
+    width: 240px;
     float: left;
 	margin: 200px 100px 0 200px;
 }
@@ -64,12 +64,13 @@ li {
 
 #hero_panel h2 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #hero_panel h3 {
+    width: 200px;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 20px;
     clear: none;
 }
 
