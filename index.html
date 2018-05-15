@@ -20,15 +20,29 @@
     </head>
     <body>
         <!-- Top navigation bar -->
-        <div id="header">
-            <a id="brownimg" href="index.html"><img id="brownlogo" src="images/brownlogo.png" alt="Brown Logo PNG"/></a>
-            <h1 id="title"><a href="index.html">Design x Health</a></h1>
-            <ul class="nav_link_container">
-                <li id="designthinking"><a href="design.html">Design Thinking</a></li>
-                <li id="atbrown"><a href="atbrown.html">At Brown</a></li>
-                <li id="beyondbrown"><a href="beyondbrown.html">Beyond Brown</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toToggle" aria-controls="toToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img id="brownlogo" src="images/brownlogo.png" alt="Brown Logo PNG"/>
+                <h1 id="title">Design x Health</h1>
+            </a>
+
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="toToggle">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="design.html">Design Thinking</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">At Brown</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="beyondbrown.html">Beyond Brown</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         
         <!-- Hero Image panel -->
         <div id="hero">
@@ -46,7 +60,7 @@
         <div id="about">
             <img id="about_img" src="images/about.png" alt="About Graphic"/>
             <img class="divider_line" src="images/divider_line.svg" alt="Divider Line"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur lacus tellus, ut fringilla purus cursus non. Nulla facilisi. Donec in velit ligula. Nulla sodales sit amet urna et vulputate. Cras luctus non justo at dictum. Aenean in ipsum pretium, vestibulum arcu eu, aliquet ipsum. Integer placerat dolor nulla, pharetra consequat dui scelerisque in. Quisque mollis lectus mollis tempor auctor. Suspendisse efficitur, nisi a faucibus pulvinar, tortor est maximus turpis, et tincidunt orci sem vitae risus. Curabitur felis urna, porttitor quis lacus sit amet, convallis sollicitudin neque. Duis mollis ullamcorper lacus, nec pulvinar augue hendrerit non. Ut vitae congue sapien.</p>
+            <p>Brown offers a multitude of resources for students to pursue their interests despite the lack of a formal "design" program. However, these resources aren't very publicized - if a student isn't necessarily integrated within the design community here at Brown, it's very hard to become involved. Recently, this has pushed more students to create opportunities in hopes of broadening the design bubble and strengthening Brown's design resources. Design x Health serves to be a central resource for students pursuing design opporunities at Brown while also stimulating discussion and innovation.</p>
         </div>
         
         <!-- Graphic Section -->
