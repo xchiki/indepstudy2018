@@ -309,18 +309,20 @@ li {
     font-size: 70px;
     color: #3A1E1A;
     margin-top: -50px;
+	margin-bottom: 70px;
     text-align: center;
 }
 
+#resources .row {
+}
+
 #resources img {
-	height: 257px;
-	width: 257px;
 	margin: auto;    
     display: block;
 }
 
 .col-sm {
-	padding: 15px;
+	padding: 0;
 }
 
 .resourcebox:hover {
@@ -342,16 +344,6 @@ li {
         margin-top: -30px;
         margin-bottom: -10px;
     }
-}
-
-@media only screen and (min-width: 768px) {
-    #resources .row .col-sm:first-child img {
-		float: right;
-	}
-	
-	#resources .row .col-sm:nth-child(2) img {
-		float: left;
-	}
 }
 
 /*-----MODAL-----*/
