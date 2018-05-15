@@ -2,7 +2,6 @@
 /*-----NAVIGATION BAR-----*/
 #header {
     height: 90px;
-    width: calc(100% - 90px);
     margin: 0 auto;
 }
 
