@@ -25,12 +25,12 @@ $(document).ready(function() {
     });
     
 	// modal close
-    $('.close').click(function() {
+    $(".close").click(function() {
        window.location.href = "atbrown.html"; 
     });
 	
 	// index smooth scroll
-	$( "#down_arrow" ).click(function() {
+	$("#down_arrow").click(function() {
 		$('html, body').animate({
 			scrollTop: $("#about").offset().top
 		}, 1000);
