@@ -304,7 +304,7 @@ li {
 
 /*---------------AT BROWN---------------*/
 /*-----GRID-----*/
-#resources {
+#resources h1 {
     font-weight: 800;
     font-size: 70px;
     color: #3A1E1A;
@@ -312,8 +312,15 @@ li {
     text-align: center;
 }
 
+#resources img {
+	height: 257px;
+	width: 257px;
+	margin: auto;    
+    display: block;
+}
+
 .col-sm {
-    padding: 30px;
+	padding: 15px;
 }
 
 .resourcebox:hover {
@@ -326,7 +333,7 @@ li {
         margin-top: 30px
     }
     
-    #resources {
+    #resources h1 {
         font-size: 30px;
     }
     
@@ -335,6 +342,16 @@ li {
         margin-top: -30px;
         margin-bottom: -10px;
     }
+}
+
+@media only screen and (min-width: 768px) {
+    #resources .row .col-sm:first-child img {
+		float: right;
+	}
+	
+	#resources .row .col-sm:nth-child(2) img {
+		float: left;
+	}
 }
 
 /*-----MODAL-----*/
