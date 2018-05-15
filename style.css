@@ -55,6 +55,7 @@ li {
     width: auto;
     margin: 0 auto;
     padding: 75px;
+	cursor: pointer;
 }
 
 #hero_panel h2 {

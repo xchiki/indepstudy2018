@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// classes collapse
     $('.triangle').click(function() {
         $(this).parent().siblings('.dropdown').slideToggle('active');
         
@@ -23,7 +24,15 @@ $(document).ready(function() {
         $(this).toggleClass('leftfacing');
     });
     
+	// modal close
     $('.close').click(function() {
        window.location.href = "atbrown.html"; 
     });
+	
+	// index smooth scroll
+	$( "#down_arrow" ).click(function() {
+		$('html, body').animate({
+			scrollTop: $("#about").offset().top
+		}, 1000);
+	});
 });
