@@ -68,15 +68,14 @@ li {
 /*-----HERO IMAGE PANEL-----*/
 #hero {
     width: 100%;
+	height: calc(100vh - 90px);
     margin: 0 auto;
 }
 
 #hero_panel {
     width: 200px;
     float: left;
-    margin-top: 200px;
-    margin-left: -150px;
-    margin-right: 100px;
+	margin: 200px 100px 0 200px;
 }
 
 #hero_image {
