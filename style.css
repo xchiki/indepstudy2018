@@ -344,16 +344,6 @@ li {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    #resources .row .col-sm:first-child img {
-		float: right;
-	}
-	
-	#resources .row .col-sm:nth-child(2) img {
-		float: left;
-	}
-}
-
 /*-----MODAL-----*/
 #modal, #modaltwo, #modalthree, #modalfour, #modalfive, #modalsix {
     background: white;
