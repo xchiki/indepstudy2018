@@ -309,18 +309,20 @@ li {
     font-size: 70px;
     color: #3A1E1A;
     margin-top: -50px;
+	margin-bottom: 70px;
     text-align: center;
 }
 
+#resources .row {
+}
+
 #resources img {
-	height: 257px;
-	width: 257px;
 	margin: auto;    
     display: block;
 }
 
 .col-sm {
-	padding: 15px;
+	padding: 0;
 }
 
 .resourcebox:hover {
