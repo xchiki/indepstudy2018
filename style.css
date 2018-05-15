@@ -1,5 +1,6 @@
 /*---------------HOME PAGE---------------*/
 /*-----NAVIGATION BAR-----*/
+/*
 #header {
     height: 90px;
     margin: 0 auto;
@@ -36,6 +37,50 @@
 h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
     text-decoration: none;
     color: black;
+}
+
+li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    border-bottom: 2px solid #B61600;
+}
+
+.activenav {
+    border-bottom: 2px solid #B61600;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+li {
+    padding-left: 63px;
+}
+*/
+
+#brownlogo {
+    height: 45px;
+    float: left;
+    position: absolute;
+    padding-left: 10px;
+}
+
+#title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 46px;
+    padding-top: 6px;
+    position: relative;
 }
 
 li a:link {
@@ -323,7 +368,7 @@ li {
 	padding: 0;
 }
 
-.resourcebox:hover {
+#classes, #people, #conferences, #entrepreneurship:hover {
     transform: scale(1.025);
 }
 
