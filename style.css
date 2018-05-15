@@ -289,7 +289,7 @@ li {
 	padding: 0;
 }
 
-#classes, #people, #conferences, #entrepreneurship:hover {
+#classes:hover, #people:hover, #conferences:hover, #entrepreneurship:hover {
     transform: scale(1.025);
 }
 
