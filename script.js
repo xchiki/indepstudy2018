@@ -32,7 +32,7 @@ $(document).ready(function() {
 	// index smooth scroll
 	$("#down_arrow").click(function() {
 		$('html, body').animate({
-			scrollTop: $("#about").offset().top
+			scrollTop: $(".about").offset().top
 		}, 1000);
 	});
 });

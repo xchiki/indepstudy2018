@@ -109,17 +109,15 @@ li {
     height: 50%;
 }
 
-.colsm.text-center h4 {
-    font-size: 11px;
-}
-
 .container p {
-    line-height: 1.4;
+    line-height: 1.6;
+    font-size: 15px;
 }
 
 .col-sm.text-center h4 {
     margin-top: 5%;
     font-weight: 600;
+    font-size: 19px;
 }
 
 .col-sm.text-center p {
@@ -585,7 +583,6 @@ li {
 
 #footer .divider_line {
     height: 105.5px;
-    margin-top: -60px;
 }
 
 #footer #left, #footer #middle, #footer #right {
